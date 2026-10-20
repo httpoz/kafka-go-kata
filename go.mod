@@ -1,10 +1,11 @@
 module github.com/httpoz/kafka-go-kata
 
-go 1.16
+go 1.24
+
+require github.com/segmentio/kafka-go v0.4.17
 
 require (
 	github.com/golang/snappy v0.0.4 // indirect
-	github.com/klauspost/compress v1.13.1 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
-	github.com/segmentio/kafka-go v0.4.17
 )
